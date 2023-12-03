@@ -1,0 +1,5 @@
+
+(library
+ (name day_1)
+ (libraries aoc.shared)
+)
