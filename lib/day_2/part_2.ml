@@ -18,19 +18,6 @@ let parse_color value =
     (a, color)
   else (0, None)
 
-let parse_game value =
-  if Str.string_match game_regex value 0 then
-    Str.matched_group 1 value |> int_of_string
-  else 0
-
-let is_color_amt_valid (a, c) =
-  match c with
-  | Some Red -> a <= 12
-  | Some Green -> a <= 13
-  | Some Blue -> a <= 14
-  | None -> false
-
-let is_possible_row values = List.for_all is_color_amt_valid values
 
 let line_parser line =
   let chunks = line |> String.split_on_char ':' in
@@ -52,7 +39,7 @@ let line_parser line =
                | _ -> ())
              x)
   in
-  out 
+  out
 
 let runner file =
   let lines = Shared.File.read_lines file in
