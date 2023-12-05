@@ -11,7 +11,7 @@ Using Advent of Code 2023 to learn OCaml.
 | Day | Part 1             | Part 2             |
 |-----|--------------------|--------------------|
 | 1   | :white_check_mark: | :white_check_mark: |
-| 2   | :white_check_mark: | :white_check_mark  |
+| 2   | :white_check_mark: | :white_check_mark: |
 | 3   | :white_check_mark: | :heavy_minus_sign: |
 | 4   | :white_check_mark: | :white_check_mark: |
 | 5   | :heavy_minus_sign: | :heavy_minus_sign: |
