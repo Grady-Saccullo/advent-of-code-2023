@@ -70,6 +70,4 @@ let rec sum lst =
 
 let runner file_location =
   let lines = Shared.File.read_lines file_location in
-  let total = sum lines in
-  print_string "Total: ";
-  print_int total
+  sum lines

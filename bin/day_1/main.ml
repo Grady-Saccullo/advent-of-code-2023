@@ -1,8 +1,7 @@
 let () =
   let cwd = Sys.getcwd () in
-  Printf.printf "Part one\n";
-  let file_1 = String.cat cwd "/files/day_1/dataset.txt" in
-  Day_1.Part_1.runner file_1;
-  Printf.printf "\nEnd Part one\n";
-  let file_2 = String.cat cwd "/files/day_1/dataset.txt" in
-  Day_1.Part_2.runner file_2;
+  let file = String.cat cwd "/files/day_1/dataset.txt" in
+  let part_1 = Day_1.Part_1.runner file in
+  Printf.printf "Part one result: %i\n" part_1;
+  let part_2 = Day_1.Part_2.runner file in 
+  Printf.printf "Part two Result: %i\n" part_2;

@@ -49,4 +49,4 @@ let runner file =
   List.filter (fun (_, v) -> v) (List.map line_parser lines)
   |> List.filter (fun (_, v) -> v)
   |> List.map (fun (k, _) -> k)
-  |> List.fold_left ( + ) 0 |> string_of_int
+  |> List.fold_left ( + ) 0

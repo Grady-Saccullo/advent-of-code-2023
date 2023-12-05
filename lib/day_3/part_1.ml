@@ -101,4 +101,4 @@ let runner file =
                sum := !sum + num;
                has_set := true)
          done);
-  sum
+  !sum
