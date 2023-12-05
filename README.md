@@ -2,9 +2,11 @@
 
 Using Advent of Code 2023 to learn OCaml.
 
-:white_check_mark: - Complete and correct
-:x: - attempted but could not copmlete
-:heavy_minus_sign: - not started
+:white_check_mark: Complete and correct
+
+:x: attempted but could not copmlete
+
+:heavy_minus_sign: not started
 
 | Day | Part 1             | Part 2             |
 |-----|--------------------|--------------------|
