@@ -1,4 +1,4 @@
-(*
+(**
 Capture groups are as follows:
 1: Card number
 2: Playing numbers
